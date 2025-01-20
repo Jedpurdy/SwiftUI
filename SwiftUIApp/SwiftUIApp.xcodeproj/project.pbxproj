@@ -14,6 +14,9 @@
 		DB89FBC62D3E389800C1625A /* SwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBC52D3E389800C1625A /* SwiftUIAppTests.swift */; };
 		DB89FBD02D3E389800C1625A /* SwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBCF2D3E389800C1625A /* SwiftUIAppUITests.swift */; };
 		DB89FBD22D3E389800C1625A /* SwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBD12D3E389800C1625A /* SwiftUIAppUITestsLaunchTests.swift */; };
+		DB89FBDF2D3E529B00C1625A /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBDE2D3E529B00C1625A /* AddItemView.swift */; };
+		DB89FBE12D3E5C7900C1625A /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBE02D3E5C7900C1625A /* LootItem.swift */; };
+		DB89FBE32D3E887E00C1625A /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89FBE22D3E887E00C1625A /* LootDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		DB89FBCB2D3E389800C1625A /* SwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB89FBCF2D3E389800C1625A /* SwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		DB89FBD12D3E389800C1625A /* SwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB89FBDE2D3E529B00C1625A /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		DB89FBE02D3E5C7900C1625A /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		DB89FBE22D3E887E00C1625A /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,11 @@
 			children = (
 				DB89FBB42D3E389500C1625A /* SwiftUIAppApp.swift */,
 				DB89FBB62D3E389500C1625A /* ContentView.swift */,
+				DB89FBDE2D3E529B00C1625A /* AddItemView.swift */,
 				DB89FBB82D3E389700C1625A /* Assets.xcassets */,
 				DB89FBBA2D3E389700C1625A /* Preview Content */,
+				DB89FBE02D3E5C7900C1625A /* LootItem.swift */,
+				DB89FBE22D3E887E00C1625A /* LootDetailView.swift */,
 			);
 			path = SwiftUIApp;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB89FBE32D3E887E00C1625A /* LootDetailView.swift in Sources */,
 				DB89FBB72D3E389500C1625A /* ContentView.swift in Sources */,
+				DB89FBDF2D3E529B00C1625A /* AddItemView.swift in Sources */,
+				DB89FBE12D3E5C7900C1625A /* LootItem.swift in Sources */,
 				DB89FBB52D3E389500C1625A /* SwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
